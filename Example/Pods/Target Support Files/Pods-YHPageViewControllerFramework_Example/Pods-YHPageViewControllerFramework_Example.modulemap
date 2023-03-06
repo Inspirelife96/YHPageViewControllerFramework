@@ -1,0 +1,6 @@
+framework module Pods_YHPageViewControllerFramework_Example {
+  umbrella header "Pods-YHPageViewControllerFramework_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

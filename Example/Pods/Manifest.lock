@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YHPageViewControllerFramework (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YHPageViewControllerFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YHPageViewControllerFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YHPageViewControllerFramework: 19636873668030da3319d05dd242c9a0d1ee76d4
+
+PODFILE CHECKSUM: 67426f27237a77a3e6c23423a0c85a7aba7ba848
+
+COCOAPODS: 1.11.2
