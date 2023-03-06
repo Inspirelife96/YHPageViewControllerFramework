@@ -4,7 +4,13 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YHPageViewControllerFramework (0.1.0)
+  - FDFullscreenPopGesture (1.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.5)
+  - YHPageViewControllerFramework (0.1.0):
+    - FDFullscreenPopGesture
+    - Masonry
+    - MJRefresh
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -13,6 +19,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - FDFullscreenPopGesture
+    - Masonry
+    - MJRefresh
 
 EXTERNAL SOURCES:
   YHPageViewControllerFramework:
@@ -20,8 +29,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YHPageViewControllerFramework: 19636873668030da3319d05dd242c9a0d1ee76d4
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  YHPageViewControllerFramework: 0f08985215bfc11d532851071c15f7cbf77770a4
 
-PODFILE CHECKSUM: 67426f27237a77a3e6c23423a0c85a7aba7ba848
+PODFILE CHECKSUM: 4c49f3d52c861fd9b623f777c921ee8ac1aacd23
 
 COCOAPODS: 1.11.2
