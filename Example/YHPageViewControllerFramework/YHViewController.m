@@ -8,6 +8,12 @@
 
 #import "YHViewController.h"
 
+#import "YHPageViewController7.h"
+
+#import "UFUIUserProfileViewController.h"
+#import "UFUIDiscoveryViewController.h"
+#import "UFUIUserProfileViewModel.h"
+
 @interface YHCellItem : NSObject
 
 @property (copy, nonatomic) NSString * title;
@@ -52,6 +58,11 @@
         NSString * vcname = [NSString stringWithFormat:@"YHPageViewController%zd",index];
         UIViewController * vc = [NSClassFromString(vcname) new];
         vc.title = title;
+
+//        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+//        nav.modalPresentationStyle = UIModalPresentationFullScreen;
+//        [weakSelf presentViewController:nav animated:YES completion:nil];
+        
         [weakSelf.navigationController pushViewController:vc animated:YES];
     };
     
@@ -124,6 +135,30 @@
     [item setClickBlock:^(__kindof YHCellItem *passItem) {
         PushBlock(10,passItem.title);
     }];
+    
+    [self.dataList addObject:item];
+    
+    
+    item = [YHCellItem new];
+    item.title = @"UFUI 发现案例";
+    [item setClickBlock:^(__kindof YHCellItem *passItem) {
+        UFUIDiscoveryViewController * discoveryVC = [[UFUIDiscoveryViewController alloc] init];
+        [weakSelf.navigationController pushViewController:discoveryVC animated:YES];
+    }];
+    
+    [self.dataList addObject:item];
+    
+    item = [YHCellItem new];
+    item.title = @"UFUI 个人主页案例";
+    [item setClickBlock:^(__kindof YHCellItem *passItem) {
+        UFUIUserProfileViewModel *userProfileVM = [[UFUIUserProfileViewModel alloc] init];
+        UFUIUserProfileViewController * userProfileVC = [[UFUIUserProfileViewController alloc] initWithUserProfileViewModel:userProfileVM];
+        
+        UINavigationController *userProfileNC = [[UINavigationController alloc] initWithRootViewController:userProfileVC];
+        userProfileNC.modalPresentationStyle = UIModalPresentationFullScreen;
+        [weakSelf presentViewController:userProfileNC animated:YES completion:nil];
+    }];
+    
     [self.dataList addObject:item];
 }
 

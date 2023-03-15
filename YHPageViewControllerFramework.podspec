@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHPageViewControllerFramework'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of YHPageViewControllerFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -43,4 +43,5 @@ TODO: Add long description of the pod here.
   s.dependency 'MJRefresh'
   s.dependency 'Masonry'
   s.dependency 'FDFullscreenPopGesture'
+  s.dependency 'YYText'
 end

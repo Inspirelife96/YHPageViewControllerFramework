@@ -21,6 +21,15 @@
 
 @implementation YHPageHeaderViewController
 
+//- (CGFloat)calculateMaxOffsetY {
+//    if (self.navigationController && [self.navigationController.navigationBar isTranslucent]) {
+//        CGRect statusBarRect = [[UIApplication sharedApplication] statusBarFrame];
+//        CGRect navigationBarRect = self.navigationController.navigationBar.frame;
+//        return [self yh_pageHeaderHeight] - (statusBarRect.size.height + navigationBarRect.size.height);
+//    } else {
+//        return [self yh_pageHeaderHeight];
+//    }
+//}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

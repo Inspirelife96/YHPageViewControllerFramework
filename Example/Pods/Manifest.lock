@@ -7,14 +7,17 @@ PODS:
   - FDFullscreenPopGesture (1.1)
   - Masonry (1.1.0)
   - MJRefresh (3.7.5)
-  - YHPageViewControllerFramework (0.1.0):
+  - YHPageViewControllerFramework (1.0.0):
     - FDFullscreenPopGesture
     - Masonry
     - MJRefresh
+    - YYText
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
   - YHPageViewControllerFramework (from `../`)
+  - YYText
 
 SPEC REPOS:
   trunk:
@@ -22,6 +25,7 @@ SPEC REPOS:
     - FDFullscreenPopGesture
     - Masonry
     - MJRefresh
+    - YYText
 
 EXTERNAL SOURCES:
   YHPageViewControllerFramework:
@@ -32,8 +36,9 @@ SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
-  YHPageViewControllerFramework: 0f08985215bfc11d532851071c15f7cbf77770a4
+  YHPageViewControllerFramework: f5c6476cb33228c291ecfe40390bf13ca7ad2938
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 4c49f3d52c861fd9b623f777c921ee8ac1aacd23
+PODFILE CHECKSUM: b2cf55f0c62bcbe8ed442cb43e4cb4c70702c5cf
 
 COCOAPODS: 1.11.2

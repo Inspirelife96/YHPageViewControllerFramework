@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* YHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YHAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* YHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YHViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -34,6 +33,15 @@
 		7F4B2F2729B5F841006ABB4B /* YHPageViewController7.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B2F1829B5F841006ABB4B /* YHPageViewController7.m */; };
 		7F4B2F2829B5F841006ABB4B /* YHPageViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B2F1B29B5F841006ABB4B /* YHPageViewController3.m */; };
 		7F4B2F2929B5F841006ABB4B /* YHPageViewController9.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B2F1C29B5F841006ABB4B /* YHPageViewController9.m */; };
+		7FDC7DEA29C159260089B5E4 /* UFUIPageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7DE229C159250089B5E4 /* UFUIPageHeaderView.m */; };
+		7FDC7DEB29C159260089B5E4 /* UFUIPageHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7DE529C159250089B5E4 /* UFUIPageHeaderViewController.m */; };
+		7FDC7DEC29C159260089B5E4 /* UFUIUserProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7DE629C159260089B5E4 /* UFUIUserProfileView.m */; };
+		7FDC7DED29C159260089B5E4 /* UFUIUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7DE929C159260089B5E4 /* UFUIUserProfileViewController.m */; };
+		7FDC7DF229C159BE0089B5E4 /* UFUIDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7DEF29C159BE0089B5E4 /* UFUIDiscoveryViewController.m */; };
+		7FDC7DF329C159BE0089B5E4 /* UFUIProposedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7DF129C159BE0089B5E4 /* UFUIProposedViewController.m */; };
+		7FDC7DF629C15A990089B5E4 /* UFUIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7DF529C15A990089B5E4 /* UFUIConstants.m */; };
+		7FDC7DF929C15DF50089B5E4 /* UFUIUserProfileViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7DF829C15DF50089B5E4 /* UFUIUserProfileViewModel.m */; };
+		7FE7C1C429B889600079402C /* YHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7C1C229B889600079402C /* YHViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8A868DEEFE794E4101A88EC6 /* Pods_YHPageViewControllerFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F0268C3171F3CFDC581E54 /* Pods_YHPageViewControllerFramework_Tests.framework */; };
 		D39A712925C4FCD33CAB0DCE /* Pods_YHPageViewControllerFramework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6C85DBD1EC9EDC6F25A89B /* Pods_YHPageViewControllerFramework_Example.framework */; };
@@ -52,7 +60,7 @@
 /* Begin PBXFileReference section */
 		22F0268C3171F3CFDC581E54 /* Pods_YHPageViewControllerFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHPageViewControllerFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6C85DBD1EC9EDC6F25A89B /* Pods_YHPageViewControllerFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHPageViewControllerFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3256D25B6BD398D80D9DE82B /* YHPageViewControllerFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YHPageViewControllerFramework.podspec; path = ../YHPageViewControllerFramework.podspec; sourceTree = "<group>"; };
+		3256D25B6BD398D80D9DE82B /* YHPageViewControllerFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YHPageViewControllerFramework.podspec; path = ../YHPageViewControllerFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YHPageViewControllerFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHPageViewControllerFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +71,6 @@
 		6003F59B195388D20070C39A /* YHPageViewControllerFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YHPageViewControllerFramework-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* YHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* YHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* YHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* YHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* YHPageViewControllerFramework_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHPageViewControllerFramework_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -100,6 +106,24 @@
 		7F4B2F1A29B5F841006ABB4B /* YHPageViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPageViewController5.h; sourceTree = "<group>"; };
 		7F4B2F1B29B5F841006ABB4B /* YHPageViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPageViewController3.m; sourceTree = "<group>"; };
 		7F4B2F1C29B5F841006ABB4B /* YHPageViewController9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPageViewController9.m; sourceTree = "<group>"; };
+		7FDC7DE229C159250089B5E4 /* UFUIPageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFUIPageHeaderView.m; sourceTree = "<group>"; };
+		7FDC7DE329C159250089B5E4 /* UFUIPageHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFUIPageHeaderViewController.h; sourceTree = "<group>"; };
+		7FDC7DE429C159250089B5E4 /* UFUIUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFUIUserProfileViewController.h; sourceTree = "<group>"; };
+		7FDC7DE529C159250089B5E4 /* UFUIPageHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFUIPageHeaderViewController.m; sourceTree = "<group>"; };
+		7FDC7DE629C159260089B5E4 /* UFUIUserProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFUIUserProfileView.m; sourceTree = "<group>"; };
+		7FDC7DE729C159260089B5E4 /* UFUIPageHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFUIPageHeaderView.h; sourceTree = "<group>"; };
+		7FDC7DE829C159260089B5E4 /* UFUIUserProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFUIUserProfileView.h; sourceTree = "<group>"; };
+		7FDC7DE929C159260089B5E4 /* UFUIUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFUIUserProfileViewController.m; sourceTree = "<group>"; };
+		7FDC7DEE29C159BD0089B5E4 /* UFUIDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFUIDiscoveryViewController.h; sourceTree = "<group>"; };
+		7FDC7DEF29C159BE0089B5E4 /* UFUIDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFUIDiscoveryViewController.m; sourceTree = "<group>"; };
+		7FDC7DF029C159BE0089B5E4 /* UFUIProposedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFUIProposedViewController.h; sourceTree = "<group>"; };
+		7FDC7DF129C159BE0089B5E4 /* UFUIProposedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFUIProposedViewController.m; sourceTree = "<group>"; };
+		7FDC7DF429C15A990089B5E4 /* UFUIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UFUIConstants.h; sourceTree = "<group>"; };
+		7FDC7DF529C15A990089B5E4 /* UFUIConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UFUIConstants.m; sourceTree = "<group>"; };
+		7FDC7DF729C15DF50089B5E4 /* UFUIUserProfileViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFUIUserProfileViewModel.h; sourceTree = "<group>"; };
+		7FDC7DF829C15DF50089B5E4 /* UFUIUserProfileViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFUIUserProfileViewModel.m; sourceTree = "<group>"; };
+		7FE7C1C229B889600079402C /* YHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHViewController.m; sourceTree = "<group>"; };
+		7FE7C1C329B889600079402C /* YHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHViewController.h; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		889AD0D69F23A94A201861F4 /* Pods-YHPageViewControllerFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPageViewControllerFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-YHPageViewControllerFramework_Tests/Pods-YHPageViewControllerFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A316810A7FD48D6F148B4153 /* Pods-YHPageViewControllerFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPageViewControllerFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-YHPageViewControllerFramework_Example/Pods-YHPageViewControllerFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,12 +206,13 @@
 		6003F593195388D20070C39A /* Example for YHPageViewControllerFramework */ = {
 			isa = PBXGroup;
 			children = (
+				7FDC7DE129C157960089B5E4 /* UFUI */,
 				7F4B2F0129B5F840006ABB4B /* DebugVC */,
 				6003F59C195388D20070C39A /* YHAppDelegate.h */,
 				6003F59D195388D20070C39A /* YHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* YHViewController.h */,
-				6003F5A6195388D20070C39A /* YHViewController.m */,
+				7FE7C1C329B889600079402C /* YHViewController.h */,
+				7FE7C1C229B889600079402C /* YHViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -239,27 +264,27 @@
 		7F4B2F0129B5F840006ABB4B /* DebugVC */ = {
 			isa = PBXGroup;
 			children = (
-				7F4B2F0229B5F840006ABB4B /* YHPageViewController10.h */,
-				7F4B2F0329B5F840006ABB4B /* YHPageViewController6.m */,
-				7F4B2F0429B5F840006ABB4B /* YHPageViewController4.h */,
-				7F4B2F0529B5F840006ABB4B /* YHPageViewController8.m */,
-				7F4B2F0629B5F840006ABB4B /* YHPageViewController2.m */,
-				7F4B2F0729B5F841006ABB4B /* YHPageViewController9.h */,
-				7F4B2F0829B5F841006ABB4B /* YHPageViewController3.h */,
-				7F4B2F0929B5F841006ABB4B /* YHPageViewController5.m */,
-				7F4B2F0A29B5F841006ABB4B /* YHPageViewController1.m */,
-				7F4B2F0B29B5F841006ABB4B /* YHPageViewController7.h */,
-				7F4B2F0C29B5F841006ABB4B /* YHPageViewController10.m */,
-				7F4B2F0D29B5F841006ABB4B /* YHPageViewController2.h */,
-				7F4B2F0E29B5F841006ABB4B /* YHPageViewController8.h */,
 				7F4B2F0F29B5F841006ABB4B /* ContentVC */,
-				7F4B2F1629B5F841006ABB4B /* YHPageViewController4.m */,
-				7F4B2F1729B5F841006ABB4B /* YHPageViewController6.h */,
-				7F4B2F1829B5F841006ABB4B /* YHPageViewController7.m */,
 				7F4B2F1929B5F841006ABB4B /* YHPageViewController1.h */,
-				7F4B2F1A29B5F841006ABB4B /* YHPageViewController5.h */,
+				7F4B2F0A29B5F841006ABB4B /* YHPageViewController1.m */,
+				7F4B2F0D29B5F841006ABB4B /* YHPageViewController2.h */,
+				7F4B2F0629B5F840006ABB4B /* YHPageViewController2.m */,
+				7F4B2F0829B5F841006ABB4B /* YHPageViewController3.h */,
 				7F4B2F1B29B5F841006ABB4B /* YHPageViewController3.m */,
+				7F4B2F0429B5F840006ABB4B /* YHPageViewController4.h */,
+				7F4B2F1629B5F841006ABB4B /* YHPageViewController4.m */,
+				7F4B2F1A29B5F841006ABB4B /* YHPageViewController5.h */,
+				7F4B2F0929B5F841006ABB4B /* YHPageViewController5.m */,
+				7F4B2F1729B5F841006ABB4B /* YHPageViewController6.h */,
+				7F4B2F0329B5F840006ABB4B /* YHPageViewController6.m */,
+				7F4B2F0B29B5F841006ABB4B /* YHPageViewController7.h */,
+				7F4B2F1829B5F841006ABB4B /* YHPageViewController7.m */,
+				7F4B2F0E29B5F841006ABB4B /* YHPageViewController8.h */,
+				7F4B2F0529B5F840006ABB4B /* YHPageViewController8.m */,
+				7F4B2F0729B5F841006ABB4B /* YHPageViewController9.h */,
 				7F4B2F1C29B5F841006ABB4B /* YHPageViewController9.m */,
+				7F4B2F0229B5F840006ABB4B /* YHPageViewController10.h */,
+				7F4B2F0C29B5F841006ABB4B /* YHPageViewController10.m */,
 			);
 			path = DebugVC;
 			sourceTree = "<group>";
@@ -267,14 +292,37 @@
 		7F4B2F0F29B5F841006ABB4B /* ContentVC */ = {
 			isa = PBXGroup;
 			children = (
-				7F4B2F1029B5F841006ABB4B /* YHTableViewController.m */,
-				7F4B2F1129B5F841006ABB4B /* YHScrollViewController.m */,
 				7F4B2F1229B5F841006ABB4B /* YHColorViewController.h */,
-				7F4B2F1329B5F841006ABB4B /* YHScrollViewController.h */,
-				7F4B2F1429B5F841006ABB4B /* YHTableViewController.h */,
 				7F4B2F1529B5F841006ABB4B /* YHColorViewController.m */,
+				7F4B2F1329B5F841006ABB4B /* YHScrollViewController.h */,
+				7F4B2F1129B5F841006ABB4B /* YHScrollViewController.m */,
+				7F4B2F1429B5F841006ABB4B /* YHTableViewController.h */,
+				7F4B2F1029B5F841006ABB4B /* YHTableViewController.m */,
 			);
 			path = ContentVC;
+			sourceTree = "<group>";
+		};
+		7FDC7DE129C157960089B5E4 /* UFUI */ = {
+			isa = PBXGroup;
+			children = (
+				7FDC7DF729C15DF50089B5E4 /* UFUIUserProfileViewModel.h */,
+				7FDC7DF829C15DF50089B5E4 /* UFUIUserProfileViewModel.m */,
+				7FDC7DE729C159260089B5E4 /* UFUIPageHeaderView.h */,
+				7FDC7DE229C159250089B5E4 /* UFUIPageHeaderView.m */,
+				7FDC7DE329C159250089B5E4 /* UFUIPageHeaderViewController.h */,
+				7FDC7DE529C159250089B5E4 /* UFUIPageHeaderViewController.m */,
+				7FDC7DE829C159260089B5E4 /* UFUIUserProfileView.h */,
+				7FDC7DE629C159260089B5E4 /* UFUIUserProfileView.m */,
+				7FDC7DE429C159250089B5E4 /* UFUIUserProfileViewController.h */,
+				7FDC7DE929C159260089B5E4 /* UFUIUserProfileViewController.m */,
+				7FDC7DEE29C159BD0089B5E4 /* UFUIDiscoveryViewController.h */,
+				7FDC7DEF29C159BE0089B5E4 /* UFUIDiscoveryViewController.m */,
+				7FDC7DF029C159BE0089B5E4 /* UFUIProposedViewController.h */,
+				7FDC7DF129C159BE0089B5E4 /* UFUIProposedViewController.m */,
+				7FDC7DF429C15A990089B5E4 /* UFUIConstants.h */,
+				7FDC7DF529C15A990089B5E4 /* UFUIConstants.m */,
+			);
+			path = UFUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +436,7 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YHPageViewControllerFramework/YHPageViewControllerFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -395,6 +444,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YHPageViewControllerFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -452,10 +502,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YHPageViewControllerFramework_Tests/Pods-YHPageViewControllerFramework_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,20 +523,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4B2F2129B5F841006ABB4B /* YHPageViewController1.m in Sources */,
+				7FDC7DEC29C159260089B5E4 /* UFUIUserProfileView.m in Sources */,
+				7FDC7DEB29C159260089B5E4 /* UFUIPageHeaderViewController.m in Sources */,
+				7FDC7DF329C159BE0089B5E4 /* UFUIProposedViewController.m in Sources */,
+				7FDC7DF229C159BE0089B5E4 /* UFUIDiscoveryViewController.m in Sources */,
 				7F4B2F2829B5F841006ABB4B /* YHPageViewController3.m in Sources */,
 				7F4B2F2529B5F841006ABB4B /* YHColorViewController.m in Sources */,
 				7F4B2F2629B5F841006ABB4B /* YHPageViewController4.m in Sources */,
 				6003F59E195388D20070C39A /* YHAppDelegate.m in Sources */,
 				7F4B2F2029B5F841006ABB4B /* YHPageViewController5.m in Sources */,
+				7FDC7DF929C15DF50089B5E4 /* UFUIUserProfileViewModel.m in Sources */,
+				7FDC7DEA29C159260089B5E4 /* UFUIPageHeaderView.m in Sources */,
 				7F4B2F1F29B5F841006ABB4B /* YHPageViewController2.m in Sources */,
+				7FDC7DED29C159260089B5E4 /* UFUIUserProfileViewController.m in Sources */,
 				7F4B2F2729B5F841006ABB4B /* YHPageViewController7.m in Sources */,
 				7F4B2F2929B5F841006ABB4B /* YHPageViewController9.m in Sources */,
 				7F4B2F1E29B5F841006ABB4B /* YHPageViewController8.m in Sources */,
 				7F4B2F2429B5F841006ABB4B /* YHScrollViewController.m in Sources */,
 				7F4B2F1D29B5F841006ABB4B /* YHPageViewController6.m in Sources */,
 				7F4B2F2329B5F841006ABB4B /* YHTableViewController.m in Sources */,
-				6003F5A7195388D20070C39A /* YHViewController.m in Sources */,
 				7F4B2F2229B5F841006ABB4B /* YHPageViewController10.m in Sources */,
+				7FE7C1C429B889600079402C /* YHViewController.m in Sources */,
+				7FDC7DF629C15A990089B5E4 /* UFUIConstants.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,7 +628,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -601,7 +661,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
